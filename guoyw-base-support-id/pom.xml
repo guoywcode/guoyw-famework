@@ -7,16 +7,12 @@
     <artifactId>guoyw-famework</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>guoyw-base</artifactId>
+  <artifactId>guoyw-base-support-id</artifactId>
   <packaging>jar</packaging>
-  <name>guoyw-base</name>
-
+  <name>guoyw-base-support-id</name>
 
   <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
+
   </dependencies>
 
 </project>

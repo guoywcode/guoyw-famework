@@ -1,0 +1,13 @@
+package com.guoyw.base.supportuuid;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GuoywBaseSupportUuidApplication{
+
+  public static void main(String[] args){
+    SpringApplication.run(GuoywBaseSupportUuidApplication.class, args);
+  }
+
+}

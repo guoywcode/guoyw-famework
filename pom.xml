@@ -22,6 +22,9 @@
 
   <modules>
     <module>guoyw-base</module>
+    <module>guoyw-base-support-id</module>
+    <module>guoyw-base-support-uuid</module>
+    <module>guoyw-utils</module>
     <module>guoyw-framework-test</module>
 
   </modules>
@@ -31,6 +34,21 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>guoyw-base</artifactId>
+        <version>${guoyw.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>guoyw-base-support-id</artifactId>
+        <version>${guoyw.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>guoyw-base-support-uuid</artifactId>
+        <version>${guoyw.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>guoyw-utils</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
       <dependency>
