@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>guoyw-utils</artifactId>
- <packaging>jar</packaging>
+  <packaging>jar</packaging>
   <name>guoyw-utils</name>
 
   <dependencies>
