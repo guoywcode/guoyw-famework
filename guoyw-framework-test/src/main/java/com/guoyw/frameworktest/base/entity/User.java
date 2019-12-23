@@ -1,8 +1,9 @@
 package com.guoyw.frameworktest.base.entity;
 
-import com.guoyw.base.BaseEntity;
+import com.guoyw.base.supportuuid.entity.UuidBaseEntity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import javax.persistence.*;
 
@@ -13,13 +14,8 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 @Data
-public class User extends BaseEntity{
-  
-  @Id
-  @GeneratedValue(strategy= GenerationType.IDENTITY)
-  @Column()
-  @ApiModelProperty("id")
-  private long id;
+@Accessors(chain = true)
+public class User extends UuidBaseEntity{
   
   @ApiModelProperty("用户名称")
   @Column(length = 25)

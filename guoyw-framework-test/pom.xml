@@ -23,7 +23,7 @@
     </dependency>
     <dependency>
       <groupId>com.guoyw</groupId>
-      <artifactId>guoyw-base</artifactId>
+      <artifactId>guoyw-base-support-uuid</artifactId>
     </dependency>
 
   </dependencies>
