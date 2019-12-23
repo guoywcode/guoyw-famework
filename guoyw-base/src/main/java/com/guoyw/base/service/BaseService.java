@@ -7,7 +7,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
 /**
@@ -112,6 +111,18 @@ public interface BaseService< E extends BaseEntity, ID>{
     long timestamp = System.currentTimeMillis();
     if (entity.getUpdatedAt() == null || entity.getUpdatedAt().equals(0) ) {
       entity.setUpdatedAt(timestamp);
+    }
+    return entity;
+  }
+  
+  default E newEntity(E entity) {
+    try {
+      Object object = entity.getClass().newInstance();
+      if (entity.getClass().isInstance(object)) {
+        entity = (E) object;
+      }
+    } catch (InstantiationException | IllegalAccessException e) {
+      throw new RuntimeException("Generate Entity Exception", e);
     }
     return entity;
   }
