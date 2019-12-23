@@ -12,6 +12,19 @@
   <name>guoyw-base-support-id</name>
 
   <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.guoyw</groupId>
+      <artifactId>guoyw-base</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.guoyw</groupId>
+      <artifactId>guoyw-utils</artifactId>
+    </dependency>
 
   </dependencies>
 
