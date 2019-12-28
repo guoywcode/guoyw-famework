@@ -9,11 +9,11 @@
     <version>2.2.2.RELEASE</version>
     <relativePath/>
   </parent>
-  <groupId>com.guoyw</groupId>
-  <artifactId>guoyw-famework</artifactId>
+  <groupId>com.guoyw.framework</groupId>
+  <artifactId>guoyw-framework</artifactId>
   <packaging>pom</packaging>
   <version>1.0</version>
-  <description>guoyw-famework</description>
+  <description>guoyw-framework</description>
 
   <properties>
     <java.version>1.8</java.version>
@@ -25,6 +25,8 @@
     <module>guoyw-base-support-id</module>
     <module>guoyw-base-support-uuid</module>
     <module>guoyw-utils</module>
+    <module>guoyw-api-versioning</module>
+    <module>guoyw-starter-exception</module>
     <module>guoyw-framework-test</module>
 
   </modules>
@@ -32,33 +34,42 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.guoyw</groupId>
+        <groupId>com.guoyw.framework</groupId>
         <artifactId>guoyw-base</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.guoyw</groupId>
+        <groupId>com.guoyw.framework</groupId>
         <artifactId>guoyw-base-support-id</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.guoyw</groupId>
+        <groupId>com.guoyw.framework</groupId>
         <artifactId>guoyw-base-support-uuid</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.guoyw</groupId>
+        <groupId>com.guoyw.framework</groupId>
         <artifactId>guoyw-utils</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.guoyw</groupId>
+        <groupId>com.guoyw.framework</groupId>
+        <artifactId>guoyw-api-versioning</artifactId>
+        <version>${guoyw.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw.framework</groupId>
+        <artifactId>guoyw-starter-exception</artifactId>
+        <version>${guoyw.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw.framework</groupId>
         <artifactId>guoyw-framework-test</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
-
 
   <dependencies>
     <dependency>
@@ -115,14 +126,22 @@
   </dependencies>
 
   <build>
+
     <plugins>
+      <!--打包源码-->
       <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
-
-
 
 </project>

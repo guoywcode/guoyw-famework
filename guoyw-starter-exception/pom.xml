@@ -7,25 +7,14 @@
     <artifactId>guoyw-framework</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>guoyw-base-support-id</artifactId>
+  <artifactId>guoyw-starter-exception</artifactId>
   <packaging>jar</packaging>
-  <name>guoyw-base-support-id</name>
+  <name>guoyw-starter-exception</name>
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.guoyw</groupId>
+      <groupId>com.guoyw.framework</groupId>
       <artifactId>guoyw-base</artifactId>
     </dependency>
-    <dependency>
-      <groupId>com.guoyw</groupId>
-      <artifactId>guoyw-utils</artifactId>
-    </dependency>
-
   </dependencies>
-
 </project>
