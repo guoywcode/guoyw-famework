@@ -1,13 +1,13 @@
-package com.guoyw.base.supportuuid;
+package com.guoyw.famework.starter.auth_password;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GuoywBaseSupportUuidApplication{
+public class GuoywStarterAuthPasswordApplication{
 
   public static void main(String[] args){
-    SpringApplication.run(GuoywBaseSupportUuidApplication.class, args);
+    SpringApplication.run(GuoywStarterAuthPasswordApplication.class, args);
   }
 
 }
