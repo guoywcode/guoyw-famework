@@ -7,9 +7,9 @@
 		<artifactId>guoyw-framework</artifactId>
 		<version>1.0</version>
 	</parent>
-	<artifactId>guoyw-api-versioning</artifactId>
+	<artifactId>guoyw-starter-api-versioning</artifactId>
 	<packaging>jar</packaging>
-	<name>guoyw-api-versioning</name>
+	<name>guoyw-starter-api-versioning</name>
 
 	<dependencies>
 

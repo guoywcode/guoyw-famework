@@ -18,11 +18,11 @@
     </dependency>
 
     <dependency>
-      <groupId>com.guoyw</groupId>
+      <groupId>com.guoyw.framework</groupId>
       <artifactId>guoyw-base-support-id</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.guoyw</groupId>
+      <groupId>com.guoyw.framework</groupId>
       <artifactId>guoyw-utils</artifactId>
     </dependency>
   </dependencies>

@@ -1,6 +1,5 @@
 package com.guoyw.framework.base.support_id.controller;
-
-import com.guoyw.base.controller.BaseController;
+import com.guoyw.framework.base.controller.BaseController;
 import com.guoyw.framework.base.support_id.entity.IdBaseEntity;
 import com.guoyw.framework.base.support_id.service.IdBaseService;
 import io.swagger.annotations.ApiModel;

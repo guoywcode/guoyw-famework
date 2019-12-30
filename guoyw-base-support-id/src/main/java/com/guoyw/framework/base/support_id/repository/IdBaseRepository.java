@@ -1,5 +1,5 @@
 package com.guoyw.framework.base.support_id.repository;
-import com.guoyw.base.repository.BaseRepository;
+import com.guoyw.framework.base.repository.BaseRepository;
 import com.guoyw.framework.base.support_id.entity.IdBaseEntity;
 import org.springframework.data.repository.NoRepositoryBean;
 

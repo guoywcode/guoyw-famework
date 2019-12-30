@@ -1,6 +1,5 @@
 package com.guoyw.framework.base.support_uuid.service;
-
-import com.guoyw.base.supportid.service.IdBaseService;
+import com.guoyw.framework.base.support_id.service.IdBaseService;
 import com.guoyw.framework.base.support_uuid.entity.UuidBaseEntity;
 import com.guoyw.framework.base.support_uuid.repository.UuidBaseRepository;
 import com.guoyw.utils.SpringBeanUtilsExt;

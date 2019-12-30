@@ -1,6 +1,6 @@
 package com.guoyw.framework.base.support_id.service;
 
-import com.guoyw.base.service.BaseService;
+import com.guoyw.framework.base.service.BaseService;
 import com.guoyw.framework.base.support_id.entity.IdBaseEntity;
 import com.guoyw.utils.SnowFlake;
 import com.guoyw.utils.SpringBeanUtilsExt;

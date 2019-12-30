@@ -1,8 +1,6 @@
 package com.guoyw.frameworktest;
-
-import com.guoyw.frameworktest.base.entity.User;
-import com.guoyw.frameworktest.base.reository.UserRepository;
-import com.guoyw.frameworktest.base.service.UserService;
+import com.guoyw.framework.test.base.entity.User;
+import com.guoyw.framework.test.base.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

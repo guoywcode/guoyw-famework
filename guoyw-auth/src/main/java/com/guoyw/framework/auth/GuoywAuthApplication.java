@@ -1,13 +1,13 @@
-package com.guoyw.frameworktest;
+package com.guoyw.framework.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GuoywFrameworkTestApplication{
+public class GuoywAuthApplication{
 
   public static void main(String[] args){
-    SpringApplication.run(GuoywFrameworkTestApplication.class, args);
+    SpringApplication.run(GuoywAuthApplication.class, args);
   }
 
 }

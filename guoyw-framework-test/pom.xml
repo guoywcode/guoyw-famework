@@ -29,6 +29,10 @@
       <groupId>com.guoyw.framework</groupId>
       <artifactId>guoyw-api-versioning</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.guoyw.framework</groupId>
+      <artifactId>guoyw-starter-shiro</artifactId>
+    </dependency>
 
   </dependencies>
 </project>

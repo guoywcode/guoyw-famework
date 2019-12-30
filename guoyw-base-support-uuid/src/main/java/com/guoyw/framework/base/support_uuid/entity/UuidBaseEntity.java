@@ -1,7 +1,7 @@
 package com.guoyw.framework.base.support_uuid.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.guoyw.base.supportid.entity.IdBaseEntity;
+import com.guoyw.framework.base.support_id.entity.IdBaseEntity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
