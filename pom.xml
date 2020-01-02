@@ -25,13 +25,14 @@
     <module>guoyw-base-support-id</module>
     <module>guoyw-base-support-uuid</module>
     <module>guoyw-utils</module>
-    <module>guoyw-starter-api-versioning</module>
+    <!--<module>guoyw-starter-api-versioning</module>-->
     <module>guoyw-starter-exception</module>
-    <module>guoyw-shiro</module>
-    <module>guoyw-starter-shiro</module>
-    <module>guoyw-auth</module>
-    <module>guoyw-starter-auth-password</module>
-    <module>guoyw-framework-test</module>
+    <!--<module>guoyw-shiro</module>-->
+    <!--<module>guoyw-starter-shiro</module>-->
+    <!--<module>guoyw-auth</module>-->
+    <!--<module>guoyw-starter-auth-password</module>-->
+    <module>guoyw-starter-swagger</module>
+    <!--<module>guoyw-framework-test</module>-->
 
   </modules>
 
@@ -57,40 +58,45 @@
         <artifactId>guoyw-utils</artifactId>
         <version>${guoyw.version}</version>
       </dependency>
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-starter-api-versioning</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-starter-exception</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-shiro</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-starter-shiro</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-auth</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-starter-auth-password</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw.framework</groupId>-->
+        <!--<artifactId>guoyw-framework-test</artifactId>-->
+        <!--<version>${guoyw.version}</version>-->
+      <!--</dependency>-->
       <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-starter-api-versioning</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-starter-exception</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-shiro</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-starter-shiro</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-auth</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-starter-auth-password</artifactId>
-        <version>${guoyw.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.guoyw.framework</groupId>
-        <artifactId>guoyw-framework-test</artifactId>
-        <version>${guoyw.version}</version>
+      <groupId>com.guoyw.framework</groupId>
+      <artifactId>guoyw-starter-swagger</artifactId>
+      <version>${guoyw.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

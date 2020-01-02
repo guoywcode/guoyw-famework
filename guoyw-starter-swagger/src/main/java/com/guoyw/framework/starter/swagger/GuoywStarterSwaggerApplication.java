@@ -1,13 +1,13 @@
-package com.guoyw.framework.test;
+package com.guoyw.framework.starter.swagger;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-//@EnableGuoywApiVersion
-public class GuoywFrameworkTestApplication{
+public class GuoywStarterSwaggerApplication{
 
   public static void main(String[] args){
-    SpringApplication.run(GuoywFrameworkTestApplication.class, args);
+    SpringApplication.run(GuoywStarterSwaggerApplication.class, args);
   }
 
 }
